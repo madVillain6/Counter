@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Pixeboy;
+  font-weight: 1;
+}
+
+.sec-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin: 10px;
+}
+.btn-1 {
+  border: none;
+  background: none;
+  margin: 10px;
+  transition: 1s;
+}
+.btn-2 {
+  border: none;
+  background: none;
+  margin: 10px;
+  transition: 1s;
+}
+
+.btn-3 {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 1s;
+}
+@font-face {
+  font-family: "Pixeboy";
+  src: url(/pixeboy-font/Pixeboy-z8XGD.ttf);
+}
+button:hover {
+  transform: scale(110%);
+  cursor: pointer;
+}
+.num {
+  border: dashed 3px black;
+  text-align: center;
+  max-width: 340px;
+}
+.title {
+  text-align: center;
+}
+.entries {
+  border: dashed 3px black;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  max-width: 340px;
+}
+.txt {
+  font-family: Pixeboy;
+  font-size: 28px;
+}
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+}
